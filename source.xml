@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="source.xml"/>
+			<file name="source.xml" url="https://raw.githubusercontent.com/vicky2344a/5EGTS/main/source.xml" />
 		</update>
 	</info>
 	<element name="5E guide to sex" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_GUIDE_TO_SEX">
