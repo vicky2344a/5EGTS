@@ -7,7 +7,7 @@
 	</info>
 	<element name="5E guide to sex" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_GUIDE_TO_SEX">
 		<description>
-			<![CDATA[<p></p>]]>
+			<![CDATA[<p><strong>Rules to change your mundane campaign</strong></p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">5EGTS</set>
