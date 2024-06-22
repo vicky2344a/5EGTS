@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml"/>
+		</update>
+	</info>
+	<element name="5E guide to sex" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_GUIDE_TO_SEX">
+		<description>
+			<![CDATA[<p></p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">5EGTS</set>
+			<set name="author">VICKY</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
