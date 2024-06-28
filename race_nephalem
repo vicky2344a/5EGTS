@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<info>
+<elements>
+	<info>
 		<name>Weapons</name>
 		<update version="0.1">
-			<file name="race_nephalem.xml" url="https://raw.githubusercontent.com/vicky2344a/5EGTS/main/race_nephalem.xml/" />
+			<file name="race-nephalem.xml" url="https://raw.githubusercontent.com/vicky2344a/5EGTS/main/race-nephalem.xml/" />
 		</update>
 	</info>
-<elements>
-  <element name="Nephalem" type="Race" source="5E guide to sex" id="ID__5EGTS_RACE_NEPHALEM">
+  	<element name="Nephalem" type="Race" source="5E guide to sex" id="ID__5EGTS_RACE_NEPHALEM">
     <description>
     	<p class="flavor">A Nephalem is an angelic-demonic hybrid, born from the union of a celestial and a fiend. The offspring have a mixture of a celestial and fiend's power and a human soul.</p>
  		<h4>Physical Description</h4>
