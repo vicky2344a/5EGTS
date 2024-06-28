@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+		<name>Weapons</name>
+		<update version="0.1">
+			<file name="race_nephalem.xml" url="https://raw.githubusercontent.com/vicky2344a/5EGTS/main/race_nephalem.xml/" />
+		</update>
+	</info>
+<elements>
+  <element name="Nephalem" type="Race" source="5E guide to sex" id="ID__5EGTS_RACE_NEPHALEM">
+    <description>
+    	<p class="flavor">A Nephalem is an angelic-demonic hybrid, born from the union of a celestial and a fiend. The offspring have a mixture of a celestial and fiend's power and a human soul.</p>
+ 		<h4>Physical Description</h4>
+		<p>Nephalem appear as mostly their humanoid parent race; very few have any features that tell them apart from their fellow man if they don't use their devil forms; an ability known as Devil Trigger to them. Being similar in build and age for the first couple of decades, making them appear nearly undying beings as they do tend to recover from impalings with great finesse.</p>
+ 		<h4>Untapped Potential</h4>
+		<p>Due to their lineage the extent of their power is often varied, as some only manifest a friction of their lineage power while others might even surpass the power of gods.</p>
+      	<h4>History</h4>
+		<p>Nephalem is a term for a hybrid conceived from a celestial and a fiend creature.Due to t</p>
+      	<p class="indent"> </p>
+		<h4>Society</h4> 
+      	<p>As they aren't usually different from humans: Nephalem take to social places like any other human race, rarely being picked out by any non-demon or -devil blooded creatures. Though most hunt devils and demons alike, few find a quiet life more accomplishing than a loud bloody one.</p>
+      	<h4>Nephalem Traits</h4>
+      	<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity increased by 1 and Constitution by 2.</p>
+		<p class="indent"><strong><em>Age.</em></strong> Nephalem reach maturity at the same age as humans, attaining immortality at the peak of their maturity.</p>
+		<p class="indent"><strong><em>Alignment.</em></strong> Due to their unnatural origin there is no set alignment.</p>
+		<p class="indent"><strong><em>Size.</em></strong> Nephalem are the same size as humans. Your size is Medium.</p>
+		<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+		<p class="indent"><strong><em>Truesight.</em></strong> You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 120 feet.</p>
+		<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
+		<p class="indent"><strong><em>Celestial Resistance.</em></strong> You have resistance to necrotic damage and radiant damage.</p>
+		<p class="indent"><strong><em>Hellish Resistance.</em></strong> You have resistance to fire damage.</p>
+		<p class="indent"><strong><em>Infernal Legacy.</em></strong> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
+		<p class="indent"><strong><em>Devil Trigger.</em></strong> You have resistance to fire damage.</p>
+		<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Abyssal, Draconic, Celestial, and Infernal.</p>
+    </description>
+    <rules>
+    	<stat name="dexterity" value="1" /> 
+    	<stat name="constitution" value="2" />
+      	<grant type="Vision" id="ID_VISION_TRUESIGHT" />
+    	<grant type="Language" id="ID_LANGUAGE_COMMON" />
+		<grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+    	<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+    	<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+    	<grant type="Language" id="ID_LANGUAGE_INFERNAL" />
+      	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+      	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
+    	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" />
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AASIMAR_NECROTIC_SHROUD" />
+      	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NEPHALEM_DEVIL_TRIGGER" />
+    </rules>
+	</element>
+  <element name="Keen Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Celestial Resistance" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
+    	<description>
+      	<p>You have resistance to necrotic damage and radiant damage.</p>
+    	</description>
+    	<sheet>
+      	<description>You have resistance to necrotic damage and radiant damage.</description>
+    </sheet>
+    <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+	</rules>
+  </element>
+  	<element name="Hellish Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE">
+		<description>
+			<p>You have resistance to fire damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to fire damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+  <element name="Infernal Legacy" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY">
+		<description>
+			<p>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the thaumaturgy cantrip. (Charisma)</description>
+			<description level="3">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 2nd-level spell (1/long rest). (Charisma)</description>
+			<description level="5">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 2nd-level spell and the darkness spell (1/long rest). (Charisma)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5"/>
+		</rules>
+  </element>
+    <element name="Devil Trigger" type="Racial Trait" source="5E guide to sex" id="ID_RACIAL_TRAIT_NEPHALEM_DEVIL_TRIGGER">
+		<description>
+			<p>Starting at 2nd Level, you can use your bonus action to unleash the divine and fiendish energy within yourself, giving you a +2 to AC and attack rolls. You can only activate this trait once per combat.During your transformation, you can deal additional necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage is equal to your level.</p>
+		</description>
+		<sheet action="Bonus Action" >
+			<description level="2">you gain a Devil Trigger as bonus action, giving you a +2 to AC and attack rolls. You can only activate this trait once per combat.The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC {{necrotic shroud:dc}}) or become frightened of you until the end of your next turn. During it, once on each of your turns, you can deal {{level}} extra necrotic damage to one target when you deal damage to it with an attack or a spell.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="2" />
+			<stat name="ranged:attack" value="2" />
+			<stat name="melee:attack" value="2" />
+			<stat name="firearms:attack" value="2" />
+			<stat name="necrotic shroud:dc" value="8" />
+			<stat name="necrotic shroud:dc" value="proficiency" />
+			<stat name="necrotic shroud:dc" value="charisma:modifier" />
+		</rules>
+  </element>
+</elements>
