@@ -24,7 +24,6 @@
 		</setters>
 	</element>
 
-
 	<!-- martial -->
 	<element name="Katana" type="Weapon" source="5E guide to sex" id="ID_5EGTS_WEAPON_KATANA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
